@@ -1,0 +1,43 @@
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--profileBackground);
+    width: 50rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.linksContainer>strong {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.links {
+    width: 100%;
+    gap: 1rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links a {
+    color: var(--white);
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: box-shadow 0.2s;
+}
+
+.links a:hover {
+    box-shadow: inset 0px 0px 0px 3px var(--white);
+}
+
+.links a:nth-child(1) {
+    background: linear-gradient(145deg, #1b1b1b, #0a0a0a);
+}
+
+.links a:nth-child(2) {
+    background: linear-gradient(145deg, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}

@@ -1,0 +1,54 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    background: var(--profileBackground);
+    border-radius: 1rem;
+    max-width: 30rem;
+}
+
+.profileContainer>img {
+    width: 12rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profileContainer>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.profileContainer>div>strong {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.profileContainer>div p {
+    text-align: justify;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.imagesContainer strong {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.imagesContainer>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagesContainer>div img {
+    width: auto;
+    height: 4rem;
+}
